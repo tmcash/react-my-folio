@@ -5,6 +5,11 @@ body {
   color:white
 }
 
+image, .image-2, .pic {
+  width: 300px;
+  height: 300px;
+}
+
 .navbar, .navbar-brand {
   text-align: center;
   display: block;
