@@ -1,13 +1,12 @@
 import React from "react";
 
-function Navigation(props) {
-const tabs = ["About me", "Portfolio", "Resume", "Contact"];
 
+// when a tab is clicked it takes you to the page needed.
+function Navigation(props) {
+const tabs = ["About me", "Portfolio"];
 return (
     <div className="tabs is-centered">
-
     <ul className="nav nav-tabs">
-
         {tabs.map((tab) => (
         <li
             className={
@@ -23,11 +22,10 @@ return (
                 props.currentPage === tab ? "nav-link active" : "nav-link"
             }
             >
-        {tab}
-
-        </a>
+            {tab}
+            </a>
         </li>
-    ))}
+        ))}
     </ul>
     </div>
 );

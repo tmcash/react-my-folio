@@ -1,13 +1,80 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: rgb(173, 179, 240);
+  color:white
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar, .navbar-brand {
+  text-align: center;
+  display: block;
+  width: 100%;
+  background-color: rgb(17, 17, 17);
+  
+}
+
+div.navbar-brand {
+  padding-top: 2em;
+  margin-bottom: 2em;
+  
+}
+
+.navbar .navbar-brand > .navbar-item,
+.navbar .navbar-brand .navbar-link {
+  display: inline-block;
+}
+
+main {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 30em;
+  margin-right: 30em;
+}
+
+.me-pic{
+  clip-path: ellipse();
+  width: 600px;
+  height: auto;
+}
+
+.label {
+  text-align: left;
+}
+
+.l2{
+  color:white;
+
+}
+
+
+.link0{
+  color: rgb(241, 14, 14);
+}
+
+
+.link1{
+  color:rgb(241, 14, 14);
+}
+
+
+.link2{
+  color:rgb(241, 14, 14);
+}
+
+
+footer.footer {
+  background-color:  rgb(23, 24, 20);
+  
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    main {
+      margin-top: 2em;
+      margin-bottom: 2em;
+      margin-left: 2em;
+      margin-right: 2em;
+    }
 }
