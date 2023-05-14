@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-my-folio/static/css/main.cf734f96.css",
+    "main.js": "/react-my-folio/static/js/main.2e3fa937.js",
+    "static/js/787.32ff3fba.chunk.js": "/react-my-folio/static/js/787.32ff3fba.chunk.js",
+    "static/media/pic.jpg": "/react-my-folio/static/media/pic.dc155af42faca77279af.jpg",
+    "static/media/image.png": "/react-my-folio/static/media/image.dd279b86bf93364ee618.png",
+    "static/media/image-2.png": "/react-my-folio/static/media/image-2.6e2f544eda9f4711426c.png",
+    "index.html": "/react-my-folio/index.html",
+    "main.cf734f96.css.map": "/react-my-folio/static/css/main.cf734f96.css.map",
+    "main.2e3fa937.js.map": "/react-my-folio/static/js/main.2e3fa937.js.map",
+    "787.32ff3fba.chunk.js.map": "/react-my-folio/static/js/787.32ff3fba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf734f96.css",
+    "static/js/main.2e3fa937.js"
+  ]
+}
